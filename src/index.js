@@ -10,6 +10,8 @@ import SecurityPage from "./pages/SecurityPage";
 import VisitPage from "./pages/VisitPage";
 import * as serviceWorker from "./serviceWorker";
 import * as Sentry from '@sentry/react';
+import SplashScreen from "./pages/SplashScreen";
+import Loader from "./components/loader";
 
 // Eruda.init();
 Sentry.init({dsn: "https://51d8dfc777ea479f8f1b1fff9bea42fd@o346982.ingest.sentry.io/5368022"});
@@ -36,8 +38,8 @@ function AppRoot() {
 		>
 			<StrictMode>
 				<BrowserRouter>
-					<Suspense fallback={<div>Loading...</div>}>
-						<Route exact path='/' component={HomePage}/>
+					<Suspense fallback={<Loader/>}>
+						<Route exact path='/' component={SplashScreen}/>
 						<Route exact path='/security' component={SecurityPage}/>
 						<Route exact path='/visit/:step?' component={VisitPage}/>
 					</Suspense>
