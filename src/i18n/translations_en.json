@@ -1,0 +1,171 @@
+{
+  "BACK_BUTTON_TEXT": "Back",
+  "PLEASE_WAIT": "Please wait…",
+  "PLAY_BUTTON": "PLAY",
+  "STOP_BUTTON": "STOP",
+
+  "MENU" : {
+    "HOME" : "Home",
+    "NAVIGATION" : "Navigation",
+    "LANGUAGE" : "Language",
+    "EVENTS" : "Events",
+    "VISIT" : "Guided visit",
+    "MAP" : "Site map"
+  },
+
+  "START": {
+    "SKIP_BUTTON": "Skip",
+    "SLIDE1" : {
+      "WELCOME_MESSAGE": "Welcome to the",
+      "LOCATION": "Cerdon's Caves",
+      "CHOOSE_LANGUAGE": "Please choose your language"
+    },
+    "SLIDE2" : {
+      "TITLE" : "For your security",
+      "LINE1" : "All the path is under video surveillance",
+      "LINE2" : "In case of emergency, you can call the staff thanks to the intercom system",
+      "GOTOVISIT" : "Begin the visit",
+      "GOTOEVENTS" : "Upcoming events"
+    }
+  },
+
+  "EVENTS": {
+    "TITLE" : "Events",
+    "TODAY" : "Today",
+    "OUVERTURE" : "Parc opens",
+    "NOMOREEVENTS" : "No more events today, see you tomorrow",
+    "ISLOADING": "Content is loading..."
+  },
+
+  "MAP": {
+    "TITLE" : "Map"
+  },
+
+  "SEO": {
+    "WELCOME": "Welcome",
+    "TITLE": "Grottes du Cerdon",
+    "DESCRIPTION": "Parc de Loisirs Prehistoriques",
+    "AUTHOR": "@hapinow"
+  },
+
+  "VISIT": {
+    "TITLE": "Guided visit",
+    "STEPS" : [
+      {
+        "NAME" : "Area 1",
+        "TITLE" : "The formation of the Caves",
+        "INDEX" : "1",
+        "DESCRIPTION" : "<p>Let us go as far back as the Jurassic period, 140 million years ago at the time of the dinosaurs.</p><p>The whole of the region was submerged under a warm and not very deep sea.</p><p>During the formation of the Alps (65 million years ago) the sea receded.</p><p>This uncovered all the usual forms of sediment that cover a sea bed which were transformed into rock over thousands of years.</p><p>This was the origin of the limestone that today covers the whole region.</p><p>Limestone is a sedimentary rock that is often at the origin of many cave formations.</p><p>2 million years ago (the start of the Quaternary period and the dawn of Homo Erectus), the earth’s climate started to change and the first ice-ages began, interspersed by warmer inter-glacial periods. Almost all of northern Europe, including the centre of France, was covered by gigantic glaciers.</p><p>The last ice-age lasted 80&nbsp;000 years and ended around 12&nbsp;000 years ago.</p><p>The present day period is a warm inter- glacial period.</p><p>The glaciers melted little by little and lakes were formed (Leman, Annecy, Bourget, Nantua) and also some rivers.</p><p>A long time ago, a river used to flow through this area. You are going to follow its path, from its entrance, to where it reappeared in the middle of a cliff face. It represents the perfect example of how the climate can shape the landscape.</p><h3>How does water shape the rock and form galleries?</h3><p>Limestone has two principal characteristics:</p><ul><li>it is full of cracks (or joints)</li><li>it dissolves when in contact with water that contains carbonic acid</li></ul><p>This has two effects:</p><ul><li><strong>a chemical reaction</strong>: water seeps into the joints and dissolves the limestone, widening the cracks,</li><li><strong>a mechanical reaction</strong>: the water carries sand, pebbles, grit, stones, etc which rub against the cracks and increase the effects of erosion of the limestone.</li></ul><p>Together, the two actions lead to the creation of underground galleries like the one we are in now.</p>",
+        "HERO": "background_1.jpg",
+        "MAP": "coupe1.jpg",
+        "AUDIO": "1_EN.mp3"
+      },
+      {
+        "NAME" : "ATTENTION",
+        "TITLE" : "Rules during the visit",
+        "INDEX" : "!",
+        "IMAGE": false,
+        "DESCRIPTION" : "<ul class=\"bigger-2\"><li>Don't touch the concretions</li><li>Don't eat</li><li>Stay on the path</li><li>You're filmed</li></ul>"
+      },
+      {
+        "NAME" : "Area 2",
+        "TITLE" : "In the first cave",
+        "INDEX" : "2",
+        "DESCRIPTION" : "<p>The formations found in caves, (stalactites, stalagmites, draperies, eccentrics..) are also the work of water and time. In this case it is the seeping waters that create the different concretions.</p><p>Acidified by the carbon dioxide in the air and particularly in the plant life on the surface, the water trickles down through the cracks to dissolve the limestone and becomes charged with <strong>a mineral called calcite</strong>.</p><p>When it crystallises, calcite forms <strong>concretions</strong>.</p><p>The river flowed down from the entrance, but, here, its path was locked by a huge rock. The river was deviated up and it formed this chimney that is between 10 and 13 metres high.</p><p>As the level of the nearby lake fell, there was not enough water in the river to allow it to push up through the surface.</p>",
+        "HERO": "background_3.jpg",
+        "MAP": "coupe2.jpg",
+        "AUDIO": "2_EN.mp3"
+      },
+      {
+        "NAME" : "Area 3",
+        "TITLE" : "Stop in the cave with iron oxyde",
+        "INDEX" : "3",
+        "DESCRIPTION" : "<p>As it filtered through the various layers of rock, the water brings with it particles of different minerals and deposits them on the rock face and concretions (ochre, brown, orangey-red for iron oxide, blue-grey for magnesium, etc.).</p><p>In other sites, prehistoric men used the pigments for their cave-paintings.</p>",
+        "HERO": "background_4.jpg",
+        "MAP": "coupe3.jpg",
+        "AUDIO": "3_EN.mp3"
+      },
+      {
+        "NAME" : "Area 4",
+        "TITLE" : "Calcareous table",
+        "INDEX" : "4",
+        "DESCRIPTION" : "<p>As you can see, this unusual concretion is horizontal. This can be explained as follows:</p><p>It is commonly known as a «&nbsp;calcareous table&nbsp;».</p><p>A stalagmite rises. So this concretion needed a «&nbsp;table&nbsp;» to grow from. This table was made of alluvial and material deposits left by the water. The calcite crystallised on the table during several thousand years. During an inter-glacial period, the increase in volume of the water washed away the deposits leaving the table suspended to the rock face</p>",
+        "HERO": "background_5.jpg",
+        "MAP": "coupe4.jpg",
+        "AUDIO": "4_EN.mp3"
+      },
+      {
+        "NAME" : "Area 5",
+        "TITLE" : "Column and petrified cascade",
+        "INDEX" : "5",
+        "DESCRIPTION" : "<p>How long will it take for this stalactite to join this stalagmite and form a column? Around 1000 to 1200 years, remembering it takes 100 years to form 1 cm3 of calcite.</p><p>The petrified cascade perfectly illustrates the flow of the waters charged with calcite, which, as it crystallised, formed this concretion.</p>",
+        "HERO": "background_6.jpg",
+        "MAP": "coupe5.jpg",
+        "AUDIO": "5_EN.mp3"
+      },
+      {
+        "NAME" : "Area 6",
+        "TITLE" : "Organs and cambodian statue",
+        "INDEX" : "6",
+        "DESCRIPTION" : "<h3>Organs</h3><p>The sound is obtained thanks to the space between the two concretions and the rock face.</p><h3>The Cambodian statue</h3><p>The drops of water splash down from the roof and the calcite that is deposited forms a crown shape formation.</p><p>As the concretion rises, the distance the drops fall is reduced and the shape becomes more regular and smoother.</p>",
+        "HERO": "background_7.jpg",
+        "MAP": "coupe6.jpg",
+        "AUDIO": "6_EN.mp3"
+      },
+      {
+        "NAME" : "Area 7",
+        "TITLE" : "Dais cavern",
+        "INDEX" : "7",
+        "DESCRIPTION" : "<p>The unusual formation of this enormous stalactite is due to its centre being almost completely dry (therefore dead) while the water continues to run down the outside.</p>",
+        "HERO": "background_8.jpg",
+        "MAP": "coupe7.jpg",
+        "AUDIO": "7_EN.mp3"
+      },
+      {
+        "NAME" : "Area 8",
+        "TITLE" : "\"La fromagère\"",
+        "INDEX" : "8",
+        "DESCRIPTION" : "<p>The main branch of the river followed the depression. The turbulent waters bore through the rock which was also eroded by secondary branches causing huge amounts of rock to cave in.</p>",
+        "HERO": "background_9.jpg",
+        "MAP": "coupe8.jpg",
+        "AUDIO": "8_EN.mp3"
+      },
+      {
+        "NAME" : "Area 9",
+        "TITLE" : "Explanation for the drop in temperature",
+        "INDEX" : "9",
+        "DESCRIPTION" : "<p>It is very cold here because of the imbalance created between the outside opening and the depth.</p><p>The cold air, which is heavier than hot air, is trapped at the bottom of the chasm and the temperature in summer at the lowest point never exceeds 4C°.</p><p>In prehistoric times, this cave was used to store food. Many animal bones have been found here. But it was never lived in because of the cold.</p><p>In 1930, a cheese-maker decided to mature his cheeses here (a cheese called the Bleu de Gex). He fitted shelves and a winch to raise and lower the cheeses from the surface which were then transported in small carts on rails. He stopped in the 1950s with the arrival of industrial cold storage techniques.</p><p>The cheese-maker himself opened the upper gallery to the public.</p>",
+        "HERO": "background_10.jpg",
+        "MAP": "coupe9.jpg",
+        "AUDIO": "9_EN.mp3"
+      },
+      {
+        "NAME" : "Area 10",
+        "TITLE" : "The sump",
+        "INDEX" : "10",
+        "DESCRIPTION" : "<p><strong>For the second part of the tour, we will go down quite a steep section which we then have to come back up, so it is not recommended for people with health related problems (cardiovascular or breathing conditions and anyone concerned about making quite a big physical effort)</strong></p><p>There are no concretions here because it is what is known as a sump.</p><p>After a lot of hard work, this section was finally cleared in 1985. Access was difficult and with the disappearance of the river, it was completely blocked by alluvial deposits.</p><p>You are now <strong>125 metres below</strong> the level of the entrance to the caves.</p><p>The water that collected in this huge cave forced its way out as a resurgent spring a few dozen metres further on.</p>",
+        "HERO": "background_11.jpg",
+        "MAP": "coupe10.jpg",
+        "AUDIO": "10_EN.mp3"
+      },
+      {
+        "NAME" : "Area 11",
+        "TITLE" : "Cabourne chopetre",
+        "INDEX" : "11",
+        "DESCRIPTION" : "<p>This is where the river exited the caves to cascade down below and which formed this cavity.</p><p>Many remains confirming human presence have been found here. Under more than 3 metres of ash, flints, pottery, and bones were discovered to confirm it was lived in during Neolithic times (-6000 years). Some of the objects have become museum pieces.</p><p>This cave was very well chosen. Temperate, dry, sheltered from the wind, it was the ideal shelter. And its raised position offered good natural protection.</p>",
+        "HERO": "background_12.jpg",
+        "MAP": "coupe11.jpg",
+        "AUDIO": "11_EN.mp3"
+      },
+      {
+        "NAME" : "Area 12",
+        "TITLE" : "Viewpoint",
+        "INDEX" : "12",
+        "DESCRIPTION" : "<p>The village of CERDON lends its name to a sparkling pink wine with a delightful fragrance and low alcohol content. It is the ideal drink for an aperitif.</p><p>There are 170 hectares of vineyards.</p>",
+        "HERO": "background_2.jpg",
+        "MAP": "coupe12.jpg",
+        "AUDIO": "12_EN.mp3"
+      }
+    ]
+  }
+}

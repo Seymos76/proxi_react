@@ -1,0 +1,170 @@
+{
+  "BACK_BUTTON_TEXT": "Regreso",
+  "PLEASE_WAIT": "Espere por favor…",
+  "PLAY_BUTTON": "ESCUCHAR",
+  "STOP_BUTTON": "PAUSA",
+
+  "MENU" : {
+    "HOME" : "Casa",
+    "NAVIGATION" : "Navegación",
+    "LANGUAGE" : "Lengua",
+    "EVENTS" : "Eventos",
+    "VISIT" : "Visita Guiada",
+    "MAP" : "Plan del parque"
+  },
+
+  "START": {
+    "SKIP_BUTTON": "Salir",
+    "SLIDE1" : {
+      "WELCOME_MESSAGE": "Bienvenida",
+      "LOCATION": "Grottes du Cerdon",
+      "CHOOSE_LANGUAGE": "Elige el idioma"
+    },
+    "SLIDE2" : {
+      "TITLE" : "Para su seguridad",
+      "LINE1" : "Todo el curso está bajo vigilancia por video",
+      "LINE2" : "Usted tiene intercomunicadores conectados a la recepción a lo largo de la ruta",
+      "GOTOVISIT" : "Iniciar la visita",
+      "GOTOEVENTS" : "Próximos eventos"
+    }
+  },
+
+  "EVENTS": {
+    "TITLE" : "Eventos",
+    "TODAY" : "Hoy",
+    "OUVERTURE" : "Apertura del parque",
+    "NOMOREEVENTS" : "No hay más eventos hoy, nos vemos mañana",
+    "ISLOADING": "Cargando..."
+  },
+
+  "MAP": {
+    "TITLE" : "Plan"
+  },
+
+  "SEO": {
+    "WELCOME": "Bienvenida",
+    "TITLE": "Grottes du Cerdon",
+    "DESCRIPTION": "Parc de Loisirs Prehistoriques",
+    "AUTHOR": "@hapinow"
+  },
+
+  "VISIT": {
+    "TITLE": "Visita Guiada",
+    "STEPS" : [
+      {
+        "NAME" : "Point 1",
+        "TITLE" : "La formación de las cuevas",
+        "INDEX" : "1",
+        "DESCRIPTION" : "<p>Retrocedamos en el tiempo hasta el Jurásico, hace 140 millones de años, durante la época de los dinosaurios. Para entonces, un mar caliente y poco profundo recubrίa esta región. Después del surgimiento de los Alpes (65 millones de años a.C), aquel mar se retiró y todos los sedimentos que cubrieron los fondos marinos se fueron transformando a lo largo de los milenios en roca, originando asί a toda la caliza presente en esta región. Las particuliaridades de la caliza como roca sedimentaria, produjeron la formación de las cuevas que hoy en dίa podemos encotrar aquί. Hace 2 millones de años (principio de la era Cuaternaria y expansión del Homo Erectus), el clima de la Tierra sufre modificaciones marcados por el inicio de grandes períodos glaciares entrecortados por períodos de recalentamiento.</p><p>Prácticamente toda la Europa del Norte, incluyendo el centro de Francia, se encontraba cubierta por inmensos glaciares.</p><p>La última glaciación duró aproximadamente 80 000 años y acabó hace apenas unos 12 000 años. Actualmente nos encontramos en un período interglaciar o de recalentamiento.</p><p>El derretimiento contίnuo de los glaciares, diό lugar a la formaciόn de lagos como Léman, Annecy, Bourget y Nantua, así como algunos ríos. Uno de los cuales, hoy ya desaparecido, recorría este sector por completo, desde su nacimiento hasta su desembocadura en medio de acantilado, que va a ser recorrido.</p><p>Esta es una ilustración del paisaje moldeado por el clima.</p><p><strong>¿Cómo el agua atraviesa la roca y forma las galerías?</strong></p><p><i>La roca calcárea tiene dos particularidades principales:</i></p><p><ul><li>Tiene muchas fisuras (o diaclasas).</li><li>Se disuelve al contacto con el agua acidificada por el dióxido de carbono (o gas carbónico).</li></ul></p><p><i>Dos acciones resultan de esto:</i></p><p><ul><li>Acción química: El agua circula por las fisuras y disuelve la caliza, permitiendo así su ensanchamiento.</li><li>Acción mecánica: El agua también transporta arena, guijarros, gravas, pequeñas piedras, etc., que, por fricción sucesiva en las fisuras, participan también en el trabajo lento de erosión. Estas acciones conjugadas permiten la formación de galerías tales como la que observamos.</li></ul></p>",
+        "HERO": "background_1.jpg",
+        "MAP": "coupe1.jpg",
+        "AUDIO": "1_ES.mp3"
+      },
+      {
+        "NAME" : "ATENCIÓN",
+        "TITLE" : "Reglas de la visita",
+        "INDEX" : "!",
+        "DESCRIPTION" : "<ul class=\"bigger-2\"><li>No toques concreciones</li><li>No comer</li><li>Mantenerse en el camino</li><li>Estás bajo videovigilancia</li></ul>"
+      },
+      {
+        "NAME" : "Point 2",
+        "TITLE" : "En la primera sala",
+        "INDEX" : "2",
+        "DESCRIPTION" : "<p>La decoración de una cueva (estalactitas, estalagmitas, cortinas, fistulosas) es también el resultado del trabajo lento del agua, que actúa en este caso por goteo.</p><p>Acidificada por el gas carbónico contenido en el aire y sobre todo en la vegetación de la superficie, el agua gotea penetrando en las fisuras y disolviendo la caliza, al mismo tiempo que toma <strong>un mineral llamado calcita</strong>.</p><p>Al cristalizar, la calcita se forman las <strong>concreciones</strong>.</p><p>El río descendίa a toda velocidad hasta penetrar en la roca caliza, pero a este nivel, una roca más dura frenó su caudal. Es entonces que el agua subiό, y formó esta chimenea, que tiene una altura de entre 10 a 13 metros.</p><p>La disminución progresiva del nivel del lago vecino, nacido del deshielo glaciar, ya no permitió alimentar el río y es por esto que la perforación de la bóveda de la cueva no se produjo.</p>",
+        "HERO": "background_3.jpg",
+        "MAP": "coupe2.jpg",
+        "AUDIO": "2_ES.mp3"
+      },
+      {
+        "NAME" : "Point 3",
+        "TITLE" : "Parada en la sala del óxido de hierro",
+        "INDEX" : "3",
+        "DESCRIPTION" : "<p>Al pasar por las capas sucesivas de la roca, el agua arrastra partículas de minerales y adorna así, de diferentes colores las paredes y las concreciones (ocre, marrón, anaranjado para el óxido de hierro y azulado para el manganeso, etc.).</p><p>En otros lugares, los hombres prehistóricos se sirvieron de estos pigmentos para realizar pinturas rupestres (o parietales).</p>",
+        "HERO": "background_4.jpg",
+        "MAP": "coupe3.jpg",
+        "AUDIO": "3_ES.mp3"
+      },
+      {
+        "NAME" : "Point 4",
+        "TITLE" : "Mesa calcárea",
+        "INDEX" : "4",
+        "DESCRIPTION" : "<p>Esta concreción presenta la particularidad de ser horizontal. Su formación no es un hecho del azar.</p><p>Se trata de una <strong>plancha estalagmítica</strong> llamada comúnmente «&nbsp;mesa calcárea&nbsp;».</p><p>Una estalagmita se forma subiendo. Hizo falta pues, a esta concreción, un suelo para su formación. Este suelo estuvo conformado por aluviones y materiales depositados aquí por el agua. La calcita se cristalizó en este suelo durante varios millones de años expandiéndose en su superficie.</p><p>Durante uno de los períodos de recalentamiento, el aumento del caudal permitió despejar el depósito de aluviones dejando suspendida la pared que hoy forma la mesa calcárea.</p>",
+        "HERO": "background_5.jpg",
+        "MAP": "coupe4.jpg",
+        "AUDIO": "4_ES.mp3"
+      },
+      {
+        "NAME" : "Point 5",
+        "TITLE" : "Columna y Cascada",
+        "INDEX" : "5",
+        "DESCRIPTION" : "<p><strong>¿Cuánto tiempo será necesario para que esta estalactita y esta estalagmita formen una columna al reunirse?</strong> Entre 1000 y 1200 años, teniendo en cuenta que 1&nbsp;cm<sup>3</sup> de calcita se forma en aproximadamente 100 años.</p><p>La cascada petrificada ilustra perfectamente el recorrido del agua cargada de calcita que, tras cristalizarse, dio origen a esta concreción.</p>",
+        "HERO": "background_6.jpg",
+        "MAP": "coupe5.jpg",
+        "AUDIO": "5_ES.mp3"
+      },
+      {
+        "NAME" : "Point 6",
+        "TITLE" : "El órgano y la estatua camboyana",
+        "INDEX" : "6",
+        "DESCRIPTION" : "<h3>El órgano</h3><p>Se obtiene una sonoridad gracias al espacio entre las dos concreciones y a su separación respecto al muro.</p><h3>La estatua camboyana</h3><p>Al caer de la bóveda de la cueva, las gotas de agua estallan y dispersan la calcita en corolas.</p><p>Progresivamente a la elevación de la concreción, disminuye la altura de la caída, la forma se afina y vuelve a ser más rectilínea.</p>",
+        "HERO": "background_7.jpg",
+        "MAP": "coupe6.jpg",
+        "AUDIO": "6_ES.mp3"
+      },
+      {
+        "NAME" : "Point 7",
+        "TITLE" : "Sala del Dosel",
+        "INDEX" : "7",
+        "DESCRIPTION" : "<p>Esta estalactita maciza debe su desarrollo particular al secamiento casi total de su centro, mientras que el goteo continuó en la periferia.</p>",
+        "HERO": "background_8.jpg",
+        "MAP": "coupe7.jpg",
+        "AUDIO": "7_ES.mp3"
+      },
+      {
+        "NAME" : "Point 8",
+        "TITLE" : "Mirada a la queserίa",
+        "INDEX" : "8",
+        "DESCRIPTION" : "<p>En este sector, el brazo principal del río tomaba la depresión ancha (o dolina). Sus aguas tumultuosas perforaron la roca que era erosionada también desde el interior por el transcurso del brazo secundario, lo cual provocó numerosos hundimientos.</p><h3>¿Cuál es la causa de la disminución de la temperatura?</h3><p>Hace frío aquí porque hay un desequilibrio relacionado con la apertura al exterior y con la diferencia de niveles.</p><p>El aire frío, más pesado, queda preso en el fondo de la cavidad donde, en su punto más bajo, la temperatura en verano no excede 4 grados centígrados.</p><p>Esta cavidad sirvió en los tiempos prehistóricos para la conservaciόn de los alimentos. En efecto, se encontraron numerosos huesos de animales. Sin embargo, esta zona nunca fue habitable, por ser demasiado fría.</p><p>En 1930, un quesero tuvo la idea de afinar su «Bleu de Gex » aquí. Instaló estanterías y un cabrestante para subir y bajar sus quesos, los cuales fueron puestos en la cavidad por vagonetas sobre carriles. Esta actividad cesó en los años 50, tras la apariciόn de las primeras cámaras frigoríficas industriales.</p><p>Es este quesero, quien abrió la galería superior a los visitantes.</p>",
+        "HERO": "background_9.jpg",
+        "MAP": "coupe8.jpg",
+        "AUDIO": "8_ES.mp3"
+      },
+      {
+        "NAME" : "Point 9",
+        "TITLE" : "Descenso a la Gran Sala",
+        "INDEX" : "9",
+        "DESCRIPTION" : "<p>Debido al importante desnivel de la segunda parte del recorrido, la visita de esta sección queda al criterio de cada uno.</p><p><strong>Se aconseja abstenerse de continuar a las personas que tienen problemas de salud</strong> (insuficiencia respiratoria y/o cardíaca y de manera general, a las personas que temen hacer un esfuerzo físico).</p>",
+        "HERO": "background_10.jpg",
+        "MAP": "coupe9.jpg",
+        "AUDIO": "9_ES.mp3"
+      },
+      {
+        "NAME" : "Point 10",
+        "TITLE" : "El sifón",
+        "INDEX" : "10",
+        "DESCRIPTION" : "<p>Esta sección no presenta ninguna concreción ya que es un sifón.</p><p>No es hasta 1985 que fue despejado, gracias a grandes esfuerzos, dadas las condiciones de difícil acceso. En efecto, tras la desaparición del río, los aluviones lo habían totalmente obstruido.</p><p>Con relación a la entrada de las cuevas, el desnivel es de 125 metros.</p><p>El agua almacenada en la inmensa sala pasaba por este conducto y volvίa a salir algunas decenas de metros después.</p>",
+        "HERO": "background_11.jpg",
+        "MAP": "coupe10.jpg",
+        "AUDIO": "10_ES.mp3"
+      },
+      {
+        "NAME" : "Point 11",
+        "TITLE" : "La Cabourne Chopêtre",
+        "INDEX" : "11",
+        "DESCRIPTION" : "<p>Este es el punto de resurgencia del río que diό forma a esta cavidad. Luego el agua descendίa en forma de cascada.</p><p>Las excavaciones efectuadas aquí permitieron descubrir numerosos vestigios de la ocupación humana. Se han encontrado sílex cortados, cerámicas, osamentas bajo más de 3 metros de espesor de cenizas, lo cual atestigua que este sector fue habitado desde el neolítico (6000 años a.C). Actualmente, algunas de estas piezas se encuentran en museos de la regiόn.</p><p>La elección de esta cavidad es extremadamente juiciosa; seco, clima templado, bien orientada con relación a los vientos dominantes y al sol. Constituye un refugio notable, si a esto se le suma su ubicación preponderante, que ofrece una protección natural.</p>",
+        "HERO": "background_12.jpg",
+        "MAP": "coupe11.jpg",
+        "AUDIO": "11_ES.mp3"
+      },
+      {
+        "NAME" : "Point 12",
+        "TITLE" : "En el mirador",
+        "INDEX" : "12",
+        "DESCRIPTION" : "<p>El pueblo de CERDON dio su nombre a un vino rosé espumoso y semi- seco, obtenido por la fermentación natural según un método ancestral. Su aroma único y su débil grado de alcohol (8° en promedio) hacen de él un aperitivo muy agradable.</p><p>El viñedo cubre solamente 170 hectáreas.</p>",
+        "HERO": "background_2.jpg",
+        "MAP": "coupe12.jpg",
+        "AUDIO": "12_ES.mp3"
+      }
+    ]
+  }
+}

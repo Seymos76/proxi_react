@@ -1,0 +1,170 @@
+{
+  "BACK_BUTTON_TEXT": "Voor",
+  "PLEASE_WAIT": "Xachten…",
+  "PLAY_BUTTON": "SPELEN",
+  "STOP_BUTTON": "STOPPEN",
+
+  "MENU" : {
+    "HOME" : "Huis",
+    "NAVIGATION" : "Surfen",
+    "LANGUAGE" : "Taal",
+    "EVENTS" : "Events",
+    "VISIT" : "Rondleiding",
+    "MAP" : "Plaats kaart"
+  },
+
+  "START": {
+    "SKIP_BUTTON": "Negeren",
+    "SLIDE1" : {
+      "WELCOME_MESSAGE": "Welkom naar de",
+      "LOCATION": " Grotten van Cerdon",
+      "CHOOSE_LANGUAGE": "Kies uw taal"
+    },
+    "SLIDE2" : {
+      "TITLE" : "Voor uw veiligheid",
+      "LINE1" : "De hele cursus is onder videobewaking",
+      "LINE2" : "Je hebt overal langs de route intercoms met de receptie verbonden",
+      "GOTOVISIT" : "Start het bezoek",
+      "GOTOEVENTS" : "Aankomende evenementen"
+    }
+  },
+
+  "EVENTS": {
+    "TITLE" : "Events",
+    "TODAY" : "Vandaag",
+    "OUVERTURE" : "Opening van het park",
+    "NOMOREEVENTS" : "Geen evenementen meer vandaag, tot morgen",
+    "ISLOADING": "Het laden..."
+  },
+
+  "MAP": {
+    "TITLE" : "Kaart"
+  },
+
+  "SEO": {
+    "WELCOME": "Welkom naar",
+    "TITLE": "Grottes du Cerdon",
+    "DESCRIPTION": "Parc de Loisirs Prehistoriques",
+    "AUTHOR": "@hapinow"
+  },
+
+  "VISIT": {
+    "TITLE": "Rondleiding",
+    "STEPS" : [
+      {
+        "NAME" : "Area 1",
+        "TITLE" : "De vorming van de Grotten",
+        "INDEX" : "1",
+        "DESCRIPTION" : "<p>Laten we teruggaan naar het Jura tijdperk, 140 miljoen jaar geleden, het hoogtepunt van de dinosaurussen.</p><p>Deze regio werd bedekt door een warme en ondiepe zee.</p><p>Tijdens de opstuwing van de Alpen ( 65 miljoen jaar geleden), trok deze zee zich terug.</p><p>Aan de oppervlakte gekomen zijn alle afzettingen, die de zeebodem bedekten in de loop van duizenden jaren versteend.</p><p>Dit is de oorsprong van het kalksteen, dat zich in deze gehele regio bevindt.</p><p>Kalksteen is dus een afzettingsgesteente met karakteristieken die hebben geleid tot de vorming van de grotten.</p><p>Twee miljoen jaar geleden (het begin van het Kwartair met de opkomst en verspreiding van Homo Erectus), veranderde het klimaat van de aarde en begonnen de grote ijstijden die werden onderbroken door periodes van opwarming. Bijna heel Noord Europa, inclusief het midden van Frankrijk, werd door enorme gletsjers bedekt.</p><p>De laatste ijstijd (glaciaal) duurde 80.000 jaar en eindigde slechts ongeveer 12.000 jaar geleden. Momenteel bevindt de aarde zich in een opwarmingsperiode (oftewel interglaciaal).</p><p>De gletsjers smolten beetje bij beetje, waardoor grote gletsjermeren (zoals Léman, Annecy, Bourget, Nantua) en zelfs bepaalde rivieren ontstonden.</p><p>Eén van deze rivieren, die vandaag de dag verdwenen is, stroomde door dit gebied. Haar complete loop, vanaf het moment dat de rivier ondergronds verdwijnt tot dat ze weer in het midden van de klif te voorschijn komt, wordt vandaag gevolgd. Het is een perfect voorbeeld van hoe het klimaat het landschap vormgeeft.</p><h3>Hoe het water het gesteente gestalte geeft en galerijen vormt</h3><p>Kalksteen heeft twee belangrijke eigenschappen:</p><ul><li>Het is heel poreus (dit zijn de diaklazen oftewel barsten in het gesteente);</li><li>Het lost op als het in contact komt met koolzuurhoudend water.</li></ul><p>Dit brengt twee reacties teweeg:</p><ul><li><strong>Een chemische reactie</strong>: het water dringt door in de barsten en ontbindt het kalksteen waardoor de barsten groter worden;</li><li><strong>Een mechanische reactie</strong>: het water vervoert zand, kiezels, grind en keien, die door voortdurende wrijving in de barsten bijdragen aan de langzame proces van erosie.</li></ul><p>Deze twee reacties hebben gezamelijk geleid tot de galerijvorming zoals deze hier te zien is.</p>",
+        "HERO": "background_1.jpg",
+        "MAP": "coupe1.jpg",
+        "AUDIO": "1_NL.mp3"
+      },
+      {
+        "NAME" : "LET OP",
+        "TITLE" : "Regels tijdens het bezoek",
+        "INDEX" : "!",
+        "DESCRIPTION" : "<ul class=\"bigger-2\"><li>Geen concreties aanraken</li><li>Niet eten</li><li>Blijf op het pad</li><li>Je bent onder video</li></ul>"
+      },
+      {
+        "NAME" : "Area 2",
+        "TITLE" : "In de eerste zaal",
+        "INDEX" : "2",
+        "DESCRIPTION" : "<p>Het decor van een grot (stalagtieten, stalagmieten, draperieën, fistuleuses.) is eveneens het resultaat van het langzame proces van het water. In dit geval gaat het om de afvloeiingswateren.</p><p>Verzuurd door koolzuurgas dat in de lucht zit en in het bijzonder in de vegetatie aan de oppervlakte, lossen deze afvloeiingswateren de kalk op, wanneer zij tot in de barsten van het kalksteen doordringen en laden zich met een <strong>mineraal genaamd calciet</strong>.</p><p>Wanneer het calciet kristalliseert neemt het vaste vorm aan.</p><p>Het water stroomde naar beneden vanaf het punt dat de loop ondergronds ging, maar op dit hoogte remde een hardere gesteente zijn stroming. Door het omhooggaan van het water werd deze hoge schoorsteen van een gevormd. De schoorsteen heeft een hoogte van 10 tot 13 meter.</p><p>Doordat het peil van het naburige meer snel daalde door het smelten van het ijs, werd de rivier niet langer gevoed door water en heeft er geen doorbraak van het gewelf plaatsgevonden.</p>",
+        "HERO": "background_3.jpg",
+        "MAP": "coupe2.jpg",
+        "AUDIO": "2_NL.mp3"
+      },
+      {
+        "NAME" : "Area 3",
+        "TITLE" : "Stop in de ijzeroxyde zaal",
+        "INDEX" : "3",
+        "DESCRIPTION" : "<p>Tijdens zijn doortocht in de opeenvolgende lagen van de rots, voert het water ertsdeeltjes mee en versiert aldus met verschillende kleuren de wanden en de formaties (oker, kastanjebruin en oranje door de ijzeroxide, grijsblauw door het mangaan, enz.).</p><p>Op andere plekken, maakte de prehistorische mens gebruik van deze pigmenten om grotschilderingen te maken (oftewel rotstekeningen).</p>",
+        "HERO": "background_4.jpg",
+        "MAP": "coupe3.jpg",
+        "AUDIO": "3_NL.mp3"
+      },
+      {
+        "NAME" : "Area 4",
+        "TITLE" : "Kalktafel",
+        "INDEX" : "4",
+        "DESCRIPTION" : "<p>Deze formatie is bijzonder om dat hij horizontaal is. Zijn vorm is niet zomaar ontstaan.</p><p>Het gaat om een <strong>stalagmieten plankier</strong> welke in de volksmond ook wel ‘kalktafel’ genoemd wordt.</p><p>Een stalagmiet groeit van beneden naar boven. Men heeft dus voor de vorming van deze formatie een plankier nodig. Deze plankier is gevormd door sedimentatie en materialen die hier door het water zijn afgezet. Het calciet heeft zich gedurende duizenden jaren op deze vloer gekristalliseerd door zich over het oppervlak te verspreiden.</p><p>Tijdens een periode van opwarming, leidde een toename van de waterstroom ertoe dat de aanslibbingen wegspoelden, waardoo de kalktafel aan de wand hangend achterbleef.</p>",
+        "HERO": "background_5.jpg",
+        "MAP": "coupe4.jpg",
+        "AUDIO": "4_NL.mp3"
+      },
+      {
+        "NAME" : "Area 5",
+        "TITLE" : "Pilaar en waterval",
+        "INDEX" : "5",
+        "DESCRIPTION" : "<p>Hoelang duurt het voordat deze stalactiet en deze stalagmiet samenkomen en een pilaar vormen? Ongeveer 1.000 tot 1.200 jaar, met de wetenschap dat het gemiddeld 100 jaar duurt voordat 1cm<sup>3</sup> calciet gevormd is.</p><p>De versteende waterval laat uitstekend het traject zien van het calcietrijke water, dat al kristalliserend, deze formatie vorm gegeven heeft.</p>",
+        "HERO": "background_6.jpg",
+        "MAP": "coupe5.jpg",
+        "AUDIO": "5_NL.mp3"
+      },
+      {
+        "NAME" : "Area 6",
+        "TITLE" : "De Orgels en het Cambodjaans standbeeld",
+        "INDEX" : "6",
+        "DESCRIPTION" : "<h3>De orgels</h3><p>Het geluid wordt verkregen dankzij de ruimte tussen de twee formaties en het feit dat ze los hangen van de wand.</p><h3>Het Cambodjaanse standbeeld</h3><p>Als de druppels van het gewelf vallen, spatten zij uiteen en verspreiden ze het calciet waardoor er bloemkronige vormen ontstaan.</p><p>Naarmate de formatie groeit neemt de valhoogte van het water af en raakt de vorm steeds verfijnder en rechtlijniger.</p>",
+        "HERO": "background_7.jpg",
+        "MAP": "coupe6.jpg",
+        "AUDIO": "6_NL.mp3"
+      },
+      {
+        "NAME" : "Area 7",
+        "TITLE" : "Baldakijnzaal (troonhemel)",
+        "INDEX" : "7",
+        "DESCRIPTION" : "<p>Deze massieve stalactiet dankt zijn bijzondere vorming aan het feit dat vanaf het moment dat de loop van het water er rondom heen verderging het middelpunt bijna geheel droog kwam te staan.</p>",
+        "HERO": "background_8.jpg",
+        "MAP": "coupe7.jpg",
+        "AUDIO": "7_NL.mp3"
+      },
+      {
+        "NAME" : "Area 8",
+        "TITLE" : "Een blik op het kaasmaken",
+        "INDEX" : "8",
+        "DESCRIPTION" : "<p>De hoofdarm van de rivier maakte een groot verval (of doline). Massale instortingen werden veroorzaakt door het onstuimige water dat de rots doorboorde en eveneens van binnenuit uitgehold werd door de loop van een tweede arm.</p>",
+        "HERO": "background_9.jpg",
+        "MAP": "coupe8.jpg",
+        "AUDIO": "8_NL.mp3"
+      },
+      {
+        "NAME" : "Area 9",
+        "TITLE" : "Waardoor daalt de temperatuur?",
+        "INDEX" : "9",
+        "DESCRIPTION" : "<p>Het is hier koud omdat er een geen evenwicht is door de verbinding met de buitenlucht en door het hoogteverschillen in de grot.</p><p>De veel zwaardere koude lucht blijft hangen op de bodem van de holle ruimte, waar op zijn laagste punt de temperatuur in de zomer niet boven de 4°C komt.</p><p>Deze holle ruimte diende in de prehistorie als bewaarplaats voor voedsel. Er zijn hier namelijk vele dierlijke beenderen teruggevonden. Er hebben echter nooit mensen in deze veel te koude holle ruimte geleefd.</p><p>In 1930 kwam een kaasboer op het idee om hier zijn kaas «&nbsp;Blue de Gex&nbsp;» te verfijnen. Hij plaatste schappen en een lier om zijn kazen naar boven en naar beneden te takelen. In wagonnetjes op de rails werden de kazen naar de holle ruimte vervoerd. Door de komst van de eerste industriële koelcellen is men in de jaren ’50 gestopt met deze werkzaamheden.</p><p>Het is de kaasboer die de hogergelegen galerij heeft opengesteld voor bezoekers.</p>",
+        "HERO": "background_10.jpg",
+        "MAP": "coupe9.jpg",
+        "AUDIO": "9_NL.mp3"
+      },
+      {
+        "NAME" : "Area 10",
+        "TITLE" : "De sifon",
+        "INDEX" : "10",
+        "DESCRIPTION" : "<p><strong>Omdat we voor het tweede deel van het traject een flink stuk moeten afdalen en weer moeten klimmen is het bezoek van dit gedeelte van de grot facultatief.</strong></p><p><strong>Het wordt sterk afgeraden aan mensen met gezondheidsproblemen (ademhalingsproblemen en/of hartklachten en in het algemeen aan mensen die geen lichamelijke inspanning kunnen of willen verrichten).</strong></p><p>Dit gedeelte laat geen enkele formatie die iets te maken heeft met een sifon.</p><p>Door de zeer moeilijke toegankelijkheid is deze ruimte pas in 1985 dankzij zeer grote inspanningen toegankelijk gemaakt. Met het verdwijnen van de rivier, is deze ruimte namelijk volledig dichtgeslibd.</p><p>Ten opzichte van de ingang van de grotten, bedraagt het hoogteverschil 125 meter.</p><p>Het in de grote zaal opgeslagen water werd onder druk door deze nauwe doorgang geperst om er na enkele tientallen meter verderop weer uit te komen.</p>",
+        "HERO": "background_11.jpg",
+        "MAP": "coupe10.jpg",
+        "AUDIO": "10_NL.mp3"
+      },
+      {
+        "NAME" : "Area 11",
+        "TITLE" : "Cabourne Chopêtre",
+        "INDEX" : "11",
+        "DESCRIPTION" : "<p>Door de opleving van de rivier op dit punt is deze holle ruimte gevormd. Het water wierp zich vervolgens als een waterval omlaag.</p><p>Door opgravingen die hier zijn uitgevoerd zijn zeer veel overblijfselen van menselijke bewoning blootgelegd. Men heeft gekerfde vuurstenen, aardewerk en beenderen onder een 3 meter dikke aslaag teruggevonden. Dit bewijst dat deze ruimte sinds het neolithicum, oftewel de nieuwe steentijd (-6000 jaar) bewoond werd. Sommige van deze vondsten zijn vandaag de dag te bewonderen in regionale musea.</p><p>De keuze voor deze ruimte was uitermate slim bedacht. Een gematigde temperatuur, droog, goed gesitueerd ten opzichte van de sterke wind en zon, vormt zij een opmerkelijke schuilplaats die door haar overhelling en haar hooggelegen positie een natuurlijke bescherming biedt.</p>",
+        "HERO": "background_12.jpg",
+        "MAP": "coupe11.jpg",
+        "AUDIO": "11_NL.mp3"
+      },
+      {
+        "NAME" : "Area 12",
+        "TITLE" : "Op de uitzichttoren",
+        "INDEX" : "12",
+        "DESCRIPTION" : "<p>Het dorp «&nbsp;Cerdon&nbsp;» heeft haar naam gegeven aan een half-droge mousserende rosé, verkregen door een natuurlijke gisting op traditionele wijze. Door haar unieke aroma en matige promillage (gemiddeld 8%) is het een zeer aangenaam aperitief.</p><p>De wijngaard is slechts 170 hectare groot.</p>",
+        "HERO": "background_2.jpg",
+        "MAP": "coupe12.jpg",
+        "AUDIO": "12_NL.mp3"
+      }
+    ]
+  }
+}

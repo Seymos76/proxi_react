@@ -1,0 +1,183 @@
+{
+  "BACK_BUTTON_TEXT": "Retour",
+  "PLEASE_WAIT": "Veuillez patienter…",
+  "PLAY_BUTTON": "LECTURE",
+  "STOP_BUTTON": "STOP",
+
+  "MENU" : {
+    "NAVIGATION" : "Navigation",
+    "HOME" : "Accueil",
+    "LANGUAGE" : "Langue",
+    "EVENTS" : "Évènements",
+    "VISIT" : "Visite Guidée",
+    "MAP" : "Plan du site"
+  },
+
+  "START": {
+    "SKIP_BUTTON": "Passer",
+    "SLIDE1" : {
+      "WELCOME_MESSAGE": "Bienvenue aux",
+      "LOCATION": "Grottes du Cerdon",
+      "CHOOSE_LANGUAGE": "Choisissez votre langue"
+    },
+    "SLIDE2" : {
+      "TITLE" : "Pour votre sécurité",
+      "LINE1" : "L’ensemble du parcours est sous vidéosurveillance",
+      "LINE2" : "Vous disposez d’interphones reliés à l’accueil tout au long du parcours",
+      "GOTOVISIT" : "Commencez la visite",
+      "GOTOEVENTS" : "Les évènements à venir"
+    }
+  },
+
+  "EVENTS": {
+    "TITLE" : "Évènements",
+    "TODAY" : "Aujourd'hui",
+    "OUVERTURE" : "Ouverture du Parc",
+    "NOMOREEVENTS" : "Il n'y a plus d'évènements aujourd'hui, à demain",
+    "ISLOADING": "Chargement en cours..."
+  },
+
+  "MAP": {
+    "TITLE" : "Plan"
+  },
+
+  "SEO": {
+    "WELCOME": "Bienvenue",
+    "TITLE": "Grottes du Cerdon",
+    "DESCRIPTION": "Parc de Loisirs Prehistoriques",
+    "AUTHOR": "@hapinow"
+  },
+
+  "VISIT": {
+    "TITLE": "Visite Guidée",
+    "STEPS": [
+      {
+        "NAME" : "Point 1",
+        "TITLE" : "La formation des Grottes",
+        "INDEX" : "1",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Il faut remonter le temps jusqu’au Jurassique, il y a 140 millions d’années à l’apogée des dinosaures.</p><p>Une mer chaude et peu profonde recouvre cette région.</p><p>Lors de la poussée des Alpes (-65 millions d’années), cette mer s’est retirée.</p><p>Mis au jour, tous les sédiments qui tapissaient les fonds marins se sont transformés au cours des millénaires en roche.</p><p>C’est l’origine du calcaire présent dans toute cette région.</p><p>Le calcaire est donc une roche sédimentaire avec des particularités qui ont conduit à la formation des Grottes.</p><p>Il y a 2 millions d’années (début de l’ère Quaternaire avec l’expansion de l’Homo Erectus), le climat de la Terre se modifie et débutent de grandes périodes glaciaires entrecoupées de périodes de réchauffement. C’est presque toute l’Europe du Nord, centre de la France compris, qui est recouverte par d’immenses glaciers.</p><p>La dernière glaciation a duré 80&nbsp;000 ans et a pris fin seulement il y environ 12&nbsp;000 ans L’époque actuelle se situe dans une période de réchauffement (ou inter-glaciaire).</p><p>Les glaciers ont fondu peu à peu et des lacs issus de cette fonte se sont formés (Léman, Annecy, Bourget, Nantua) de même que certaines rivières.</p><p>L’une d’elles, aujourd’hui disparue, parcourait ce secteur et c’est son tracé complet depuis son enfouissement (ou perte) jusqu’à son débouché (ou résurgence) en milieu de falaise qui va être parcouru. C’est l’illustration du façonnage des paysages par le climat.</p><h3>Comment l’eau creuse-t-elle la roche et forme des galeries&nbsp;?</h3><p>La roche calcaire a 2 particularités majeures :</p><ul><li>elle est très fissurée (ce sont les diaclases),</li><li>elle se dissout au contact de l’eau acidifiée par le dioxyde de carbone (ou gaz carbonique).</li></ul><p>2 actions en découlent :</p><ul><li><strong>action chimique</strong> : l’eau circule dans les fissures et dissout le calcaire permettant ainsi leur élargissement,</li><li><strong>action mécanique</strong> : l’eau transporte sable, galets, graviers, cailloux qui, par frottements successifs dans les fissures, participent également au lent travail d’érosion.</li></ul><p>Ces actions conjuguées permettent la formation de galeries telle que celle empruntée.</p>",
+        "HERO": "background_1.jpg",
+        "MAP": "coupe1.jpg",
+        "AUDIO": "1_FR.mp3"
+      },
+      {
+        "NAME" : "ATTENTION",
+        "TITLE" : "Règles durant la visite",
+        "INDEX" : "!",
+        "IMAGE": false,
+        "DESCRIPTION" : "<ul class=\"bigger-2\"><li>Ne pas toucher les concrétions !</li><li>Ne pas manger</li><li>Rester sur le cheminement</li><li>Vous êtes sous vidéo-surveillance</li></ul>"
+      },
+      {
+        "NAME" : "Point 2",
+        "TITLE" : "Dans la première salle",
+        "INDEX" : "2",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Le décor d’une grotte (stalactites, stalagmites, draperies, fistuleuses…) est aussi le résultat du lent travail des eaux. Ce sont les eaux de ruissellement qui agissent dans ce cas.</p><p>Acidifiées par le gaz carbonique contenu dans l’air et surtout dans la végétation de surface, ces eaux de ruissellement, en pénétrant dans les fissures dissolvent le calcaire et se chargent <strong>d’un minéral appelé calcite</strong>.</p><p>La calcite en se cristallisant forme les <strong>concrétions</strong>.</p><p>Le cours d’eau dévalait depuis le point d’enfouissement mais, à ce niveau, une roche plus dure a freiné son écoulement. En remontant, l’eau a formé cette cheminée haute de 10 à 13 mètres.</p><p>L’abaissement progressif du niveau du lac voisin, issu de la fonte glaciaire, n’a plus permis d’alimenter la rivière et le percement de la voûte ne s’est pas produit.</p>",
+        "HERO": "background_3.jpg",
+        "MAP": "coupe2.jpg",
+        "AUDIO": "2_FR.mp3"
+      },
+      {
+        "NAME" : "Point 3",
+        "TITLE" : "Arrêt dans la salle oxyde de fer",
+        "INDEX" : "3",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Lors de son passage dans les couches successives de la roche, l’eau charrie des particules de minerais et orne ainsi de différentes couleurs les parois et les concrétions (ocre, marron, orangé pour l’oxyde de fer, gris bleu pour le manganèse, etc.).</p><p>En d’autres lieux, les hommes préhistoriques se sont servis de ces pigments pour réaliser des peintures rupestres (ou pariétales).</p>",
+        "HERO": "background_4.jpg",
+        "MAP": "coupe3.jpg",
+        "AUDIO": "3_FR.mp3"
+      },
+      {
+        "NAME" : "Point 4",
+        "TITLE" : "Table calcaire",
+        "INDEX" : "4",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Cette concrétion présente la particularité d'être horizontale. Sa formation n'est pas le fait du hasard.</p><p>Il s'agit d'un <strong>plancher stalagmitique</strong> appelé communément «&nbsp;table calcaire&nbsp;».</p><p>Une stalagmite se forme en montant. Il a fallu donc à cette concrétion un plancher pour sa formation. Ce plancher était constitué d’alluvions et matériaux déposés ici par l’eau. La calcite s’est cristallisée sur ce plancher pendant plusieurs milliers d’années en se répandant à sa surface.</p><p>Lors d’une période de réchauffement, l’augmentation du débit de l’eau a permis de dégager le dépôt d’alluvions en laissant suspendue à la paroi la table calcaire.</p>",
+        "HERO": "background_5.jpg",
+        "MAP": "coupe4.jpg",
+        "AUDIO": "4_FR.mp3"
+      },
+      {
+        "NAME" : "Point 5",
+        "TITLE" : "Colonne et Cascade",
+        "INDEX" : "5",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Combien de temps sera nécessaire pour que cette stalactite et cette stalagmite forment une colonne en se rejoignant&nbsp;? Environ 1000 à 1200 ans sachant qu’un 1&nbsp;cm<sup>3</sup> de calcite se forme en moyenne en 100 ans.</p><p>La cascade pétrifiée illustre parfaitement le parcours de l'eau chargée de calcite qui, en se cristallisant, a façonné cette concrétion.</p>",
+        "HERO": "background_6.jpg",
+        "MAP": "coupe5.jpg",
+        "AUDIO": "5_FR.mp3"
+      },
+      {
+        "NAME" : "Point 6",
+        "TITLE" : "Les orgues et la statue cambodgienne",
+        "INDEX" : "6",
+        "IMAGE": true,
+        "DESCRIPTION" : "<h3>Les orgues</h3><p>La sonorité est obtenue grâce à l'espace entre les 2 concrétions et à leur détachement de la paroi.</p><h3>La statue cambodgienne</h3><p>En tombant de la voûte, les gouttes d'eau éclatent et dispersent la calcite en corolles.</p><p>Au fur et à mesure de l'élévation de la concrétion, la hauteur de chute diminuant, la forme s'affine et redevient plus rectitigne.</p>",
+        "HERO": "background_7.jpg",
+        "MAP": "coupe6.jpg",
+        "AUDIO": "6_FR.mp3"
+      },
+      {
+        "NAME" : "Point 7",
+        "TITLE" : "Salle du Dais",
+        "INDEX" : "7",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Cette stalactite massive doit son développement particulier à un assèchement presque total en son centre tandis que l'écoulement se poursuit sur la périphérie.</p>",
+        "HERO": "background_8.jpg",
+        "MAP": "coupe7.jpg",
+        "AUDIO": "7_FR.mp3"
+      },
+      {
+        "NAME" : "Point 8",
+        "TITLE" : "Coup d'oeil sur la Fromagère",
+        "INDEX" : "8",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Le bras principal de la rivière empruntait la large dépression (ou doline). Ses eaux tumultueuses ont foré la roche qui, érodée également de l’intérieur par le cours du bras secondaire, a provoqué des effondrements massifs.</p>",
+        "HERO": "background_9.jpg",
+        "MAP": "coupe8.jpg",
+        "AUDIO": "8_FR.mp3"
+      },
+      {
+        "NAME" : "Point 9",
+        "TITLE" : "Cause de l’abaissement de&nbsp;température&nbsp;?",
+        "INDEX" : "9",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Il fait froid ici car il y a un déséquilibre lié à l’ouverture sur l’extérieur et à la différence de niveaux.</p><p>L’air froid, plus lourd, reste prisonnier au fond de la cavité où, dans son point le plus bas, la température en été n’excède pas 4°C</p><p>Cette cavité a servi aux temps préhistoriques de garde-manger. En effet, de nombreux ossements d'animaux ont été retrouvés. Cependant, jamais les hommes n'ont vécu dans cette cavité trop froide.</p><p>En 1930, un fromager a eu l'idée d'affiner son Bleu de Gex ici. Il a installé des rayonnages et un treuil pour monter et descendre ses fromages qui étaient convoyés dans la cavité dans des wagonnets montés sur des rails. Cette activité a cessé dans les années 50 ans avec les premières chambres froides industrielles.</p><p>C’est le fromager qui ouvrit la galerie supérieure aux visiteurs.</p>",
+        "HERO": "background_10.jpg",
+        "MAP": "coupe9.jpg",
+        "AUDIO": "9_FR.mp3"
+      },
+      {
+        "NAME" : "Point 10",
+        "TITLE" : "Le siphon",
+        "INDEX" : "10",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p><strong>En raison du dénivelé plus important de la 2<sup>ème</sup> partie du parcours, la visite de cette section qu’il faudra remonter est à l’appréciation de chacun.</strong></p><p><strong>Elle est fortement déconseillée aux personnes ayant des problèmes de santé (insuffisance respiratoire et/ou cardiaque et d’une façon générale aux personnes craignant de faire un effort physique).</strong></p><p>Cette section ne présente aucune concrétion s’agissant d’un siphon.</p><p>C'est en 1985 seulement qu'il a été dégagé au prix de très gros efforts en raison des conditions d'accès très difficiles. En effet, avec la disparition de la rivière, des alluvions l’avaient totalement obturé.</p><p>Par rapport à l'entrée des Grottes, le dénivelé est de 125 mètres.</p><p>L’eau stockée dans l’immense salle passait sous pression dans ce conduit forcé pour ressortir dans quelques dizaines de mètres.</p>",
+        "HERO": "background_11.jpg",
+        "MAP": "coupe10.jpg",
+        "AUDIO": "10_FR.mp3"
+      },
+      {
+        "NAME" : "Point 11",
+        "TITLE" : "La Cabourne Chopêtre",
+        "INDEX" : "11",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>C’est le point de résurgence de la rivière qui a façonné cette cavité. Les eaux se jetaient ensuite en cascade en contrebas.</p><p>Les fouilles effectuées ici ont permis de mettre au jour de nombreux vestiges de l’occupation humaine. Ont été retrouvés des silex taillés, des poteries, des ossements sous plus de 3 mètres d’épaisseur de cendres, attestant que ce porche a été habité depuis le néolithique (-6000 ans) Certaines pièces sont aujourd'hui dans des musées régionaux.</p><p>Le choix de cette cavité est extrêmement judicieux. Tempérée, sèche, bien orientée par rapport aux vents dominants et au soleil, elle constitue un abri remarquable avec son surplomb et sa position dominante offrant une protection naturelle.</p>",
+        "HERO": "background_12.jpg",
+        "MAP": "coupe11.jpg",
+        "AUDIO": "11_FR.mp3"
+      },
+      {
+        "NAME" : "Point 12",
+        "TITLE" : "Sur le belvédère",
+        "INDEX" : "12",
+        "IMAGE": true,
+        "DESCRIPTION" : "<p>Le village de CERDON a donné son nom à un vin pétillant rosé demi-sec obtenu par fermentation naturelle selon une méthode ancestrale. Son arôme unique et son faible degré d’alcool (8° en moyenne) en font un apéritif très agréable.</p><p>Le vignoble couvre seulement 170 hectares.</p>",
+        "HERO": "background_2.jpg",
+        "MAP": "coupe12.jpg",
+        "AUDIO": "12_FR.mp3"
+      }
+    ]
+  }
+}

@@ -1,0 +1,95 @@
+// Importing Bootstrap Variables to Reuse
+
+@import "bootstrap/functions";
+@import "bootstrap/variables";
+
+//Importing Utility Classes
+@import "duodrawer/variables"; 
+
+//Importing Sturctural Elements
+@import "duodrawer/typography";
+@import "duodrawer/structure";
+@import "duodrawer/logos";
+@import "highlights/colors";
+@import "duodrawer/header-bar";
+@import "duodrawer/footer-bar";
+@import "duodrawer/menu";
+@import "duodrawer/utilities";
+
+//Importing Components
+@import "components/buttons";
+@import "components/loader";
+@import "components/cards";
+@import "components/dividers";
+@import "components/list-group";
+@import "components/visit-controls";
+
+//Importing Pages
+@import "pages/map";
+
+//Importing Dark Mode
+//@import "duodrawer/_dark";
+
+//Demo Aligns for Icons and Background Demo Images
+//Can be deleted to save space
+//@import "components/zdemo.scss";
+
+//Importing Plugins
+@import "components/a2hs";
+
+//.debug {
+//  border: 1px solid red;
+//}
+
+
+#loader {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: #1f0f00;
+  background-image: url("../images/splashes/splash.jpg");
+  background-size: 190%;
+  background-position: center center;
+  background-repeat: no-repeat;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.lds-dual-ring {
+  display: inline-block;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+}
+p {
+  color: white;
+  text-align: center;
+  margin: auto;
+}
+.lds-dual-ring:after {
+  content: " ";
+  display: block;
+  width: 64px;
+  height: 64px;
+  margin: 8px;
+  border-radius: 50%;
+  border: 6px solid #fff;
+  border-color: #fff transparent #fff transparent;
+  animation: lds-dual-ring 1.2s linear infinite;
+}
+@keyframes lds-dual-ring {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+
+
+.hidden {
+  display: none !important;
+}

@@ -1,0 +1,89 @@
+/*Typography Settings*/
+body {
+	font-size: $font-main-size;
+	font-family: $font-main-family !important;
+	line-height: $font-main-line;
+	color: $font-main-color !important;
+    background-color: $theme-light-background;
+}
+
+h1, h2, h3, h4, h5, h6{
+    font-weight:$font-heading-weight;
+	color: $font-heading-color;
+	font-family: $font-heading-family !important;
+    margin-bottom:5px;
+	letter-spacing: -0.8px;
+	text-align: center;
+}
+
+h1{
+	font-size:$font-h1-size;
+	line-height:$font-h1-line;
+	padding-bottom:5px;
+	margin-bottom: 30px;
+	color: $theme-big-title;
+}
+h2{
+	font-size:$font-h2-size;
+	line-height:$font-h2-line;
+}
+h3{
+	font-size:$font-h3-size;
+	line-height:$font-h3-line;
+	margin-bottom: 15px;
+}
+h4{
+	font-size:$font-h4-size;
+	line-height:$font-h4-line;
+}
+h5{
+	font-size:$font-h5-size;
+	line-height:$font-h5-line;
+}
+
+a {text-decoration: none !important;}
+p {
+	color: $font-main-color;
+	margin-bottom: $globalMargin;
+	font-weight: $font-main-weight;
+    padding-bottom: 0px;
+    font-size: 1.3em;
+}
+ul li {
+	font-size: 1.15em;
+}
+.price-sup{
+    display:inline-block;
+    transform:translateY(-10px);
+}
+h1 .badge, h2 .badge, h3 .badge, h4 .badge, h5 .badge{transform:translateY(-3px);}
+//p .badge{transform:translateY(-1px);}
+
+.smaller-1 {
+	font-size: 0.9em;
+}
+.smaller-2 {
+	font-size: 0.8em;
+}
+.smaller-3 {
+	font-size: 0.7em;
+}
+.smaller-4 {
+	font-size: 0.6em;
+}
+
+.bigger-1 {
+	font-size: 1.1em;
+}
+.bigger-2 {
+	font-weight:$font-heading-weight;
+	font-size: 1.2em;
+}
+.bigger-3 {
+	font-weight:$font-heading-weight;
+	font-size: 1.3em;
+}
+.bigger-4 {
+	font-weight:$font-heading-weight;
+	font-size: 1.4em;
+}

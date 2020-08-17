@@ -1,0 +1,36 @@
+button#installButton {
+  position: fixed;
+  top: 130%;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  //margin-top: 100%;
+  flex-direction: row;
+  height: 80px;
+  width: 100%;
+  text-align: center;
+  text-transform: uppercase;
+  justify-content: space-evenly;
+  align-content: center;
+  align-items: center;
+  background-color: #602e1c;
+  border: 1px solid #602e1c;
+  border-radius: 3px;
+  color: white;
+  z-index: 9;
+
+  svg {
+    color: #ffffff;
+    font-size: 1rem;
+  }
+
+  span {
+    color: #ffffff;
+    font-size: 1rem;
+    text-transform: uppercase;
+  }
+}
+
+.hidden {
+  display: none !important;
+}

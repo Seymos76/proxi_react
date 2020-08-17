@@ -1,0 +1,94 @@
+.visit-controls {
+  position: fixed;
+  left: 0; bottom: 0;
+  width: 100%;
+  min-height: 50px;
+  height: auto;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+  background-color: #602e1c;
+
+  a.btn {
+    display: inline-flex;
+    width: 20%;
+    height: inherit;
+    border: none;
+    border-radius: 5px;
+    background-color: #602e1c;
+
+    svg {
+      color: white;
+      display: inline-block;
+      margin: auto;
+      max-height: 40px;
+      font-size: 1.2rem;
+    }
+  }
+}
+
+.start, .end {
+  background-color: #602e1c;
+  a {
+    //width: 50%;
+    width: 25%;
+  }
+}
+
+.start {
+  a {
+    border: none;
+  }
+}
+.visit-controls.no-audio {
+  a {
+    width: 50%;
+    height: 88px;
+  }
+}
+.end {
+  a {
+    border: none;
+  }
+}
+
+@media screen and (max-width: 900px) and (orientation: landscape) {
+  .visit-controls {
+    position: absolute;
+    right: 0; bottom: 0;
+    width: auto;
+    height: auto;
+
+    a {
+      display: inline-flex;
+      width: 50px;
+      height: 50px;
+      //background-color: #cb5900;
+      background-color: #602e1c;
+      //border: none;
+      border-radius: 50%;
+      margin-left: 10px;
+
+      svg {
+        color: white;
+        display: inline-block;
+        margin: auto;
+        max-height: 40px;
+        font-size: 1.2rem;
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 570px) and (orientation: landscape) {
+  .visit-controls {
+    position: fixed;
+    right: 0;
+    bottom: 25px;
+    width: 50px;
+    height: 500px;
+    flex-direction: column !important;
+    justify-content: space-evenly;
+    background-color: #602e1c;
+  }
+}
