@@ -1,0 +1,26 @@
+/*Working Hours*/
+.working-hours {
+	p {
+		padding-top: 34px;
+		padding-bottom: 15px !important;
+		line-height: 0px;
+		padding-left: 20px;
+		padding-right: 20px;
+		margin-top: -8px !important;
+		width: 33.3%;
+		float: left;
+		margin-bottom: 10px;
+		display: inline-block;
+		&:nth-child(2) {
+			text-align: center;
+		}
+		&:last-child {
+			text-align: right;
+		}
+	}
+	&::after {
+		content: "";
+		clear: both;
+		display: table;
+	}
+}

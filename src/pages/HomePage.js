@@ -1,50 +1,111 @@
-import React, {Fragment} from "react"
-import SEO from "../components/seo";
+import React, {useState, useEffect} from "react"
 import { Link } from "react-router-dom";
-import IntlContext from "../context/IntlContext";
 import splash from "../assets/images/logo_grottes_cerdon.png";
 import DuoDrawerLayout from "../layout/DuoDrawerLayout";
 import Bowser from "bowser";
-import {faDirections, faDownload} from "@fortawesome/free-solid-svg-icons";
+import axios from "axios";
+import {faDirections, faDownload, faSearch, faWindowClose} from "@fortawesome/free-solid-svg-icons";
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function HomePage() {
+    const [selectedCity, setSelectedCity] = useState('');
+    const [cities, setCities] = useState(['Amsterdam']);
+    const [citySearch, setCitySearch] = useState('');
     const { engine } = Bowser.getParser(window.navigator.userAgent).getResult();
     const browserEngine = engine.name;
     const isFirefox = browserEngine !== "WebKit" && browserEngine !== "Blink" && browserEngine === "Gecko";
 
+    const handleChange = ({ currentTarget }) => {
+        setCitySearch(currentTarget.value);
+    }
+
+    const getMatchingCities = async () => {
+        if (citySearchIsValid()) {
+            return await axios.get(`http://localhost:8000/api/cities?search=${citySearch}`)
+                .then(response => {
+                    // console.log('response:',response);
+                    return response.data;
+                })
+                .catch(error => {
+                    // console.log('error:',error.message);
+                })
+                .finally(() => {
+                    console.log('executes whatever');
+                })
+        } else {
+        }
+    }
+
+    const citySearchIsValid = () => {
+        if (citySearch !== "" && citySearch.length >= 5) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+
+    const selectCity = ({ currentTarget }) => {
+        console.log('selected:',currentTarget);
+        console.log('data:',currentTarget.dataset.id);
+        setSelectedCity(currentTarget.dataset.id);
+        var selectedElements = document.querySelectorAll(".city-select");
+        selectedElements.forEach(element => {
+            if (element.dataset.id === currentTarget.dataset.id) {
+                element.classList.add('active');
+            } else {
+                return element.classList.contains('active') ? element.classList.remove('active') : false;
+            }
+        })
+    }
+
+    useEffect( () => {
+        // console.log('used effect',cities);
+        const fetchCities = async () => {
+            const result = await getMatchingCities();
+            // console.log('cities:',result);
+            setCities(result);
+        }
+        fetchCities();
+    }, [citySearch]);
+
     return (
         <DuoDrawerLayout isHome={true}>
-            <IntlContext.Consumer>
-                {({ translations, locale }) => (
-                    <Fragment>
-                        <SEO title={translations.SEO.WELCOME} lang={locale} />
-                        <div data-card-height="story-card" className="card bg-17">
-                            <div className="card-center text-center">
-                                <h1 className="bolder font-30 mb-n2">
-                                    <span className="font-20 color-white">{translations.START.SLIDE1.WELCOME_MESSAGE}</span><br/>{translations.START.SLIDE1.LOCATION}
-                                </h1>
-                                <div className="mt-5 mb-5">
-                                    <img src={splash} alt="splash" height={80}/>
-                                </div>
-                                <Link to='/security/'
-                                   className="btn btn-lg bg-highlight btn-center-auto btn-icon shadow-l font-900 text-uppercase">
-                                    <FontAwesomeIcon icon={faDirections} />
-                                    {translations.MENU.VISIT}
+            <div className="content mt-4 mb-0">
+                {/*{alert.type !== '' && <Alert type={alert.type} message={alert.message} />}*/}
+                <h1>Bienvenue sur la marketplace mobile du commerce de proximité</h1>
+                <div className="search-box search-dark shadow-xl border-0 bg-theme bottom-0">
+                    {/*<FontAwesomeIcon icon={faSearch}/>*/}
+                    <input type="text" value={citySearch} onChange={handleChange} className="border-0 rounded-sm" placeholder="Recherchez votre ville" />
+                </div>
+                {
+                    (!cities || !cities.length) && <div className="search-no-results disabled mt-4">
+                        <h4>No Results</h4>
+                        <p>
+                            Your search brought up no results. Try using a different keyword. Or try typying all
+                            to see all items in the demo. These can be linked to anything you want.
+                        </p>
+                        <div className="divider"></div>
+                    </div>
+                }
+                {
+                    cities && cities.length && <div className={`search-results`}>
+                        <div className="list-group list-custom-large">
+                            {(cities && cities.length) && cities.map(city => (
+                                <Link to={`/${city.slug}`} onClick={selectCity} data-id={city.id} key={city.id} className={"city-select"}>
+                                    <i className="fab fa-apple color-gray-dark"></i>
+                                    <span>{city.name}</span>
+                                    <strong>{city.zipCode}</strong>
+                                    <i className="fa fa-angle-right"></i>
                                 </Link>
-                                {isFirefox && <p className="install-info">Pour une meilleure expérience utilisateur, veuillez ouvrir ce guide avec le navigateur Chrome.</p>}
-                                <button id="installButton" type="button" className="hidden">
-                                    <FontAwesomeIcon icon={faDownload} className="mr-3" />
-                                    Installer
-                                </button>
-                            </div>
-                            <div className="card-overlay card-overlay-infinite bg-black opacity-90"></div>
+                            ))}
                         </div>
-                    </Fragment>
-                )}
-            </IntlContext.Consumer>
+                    </div>
+                }
+            </div>
+            {/*<button onClick={toggleCityForm} className="btn btn-primary">Chercher une ville</button>*/}
         </DuoDrawerLayout>
     )
 }
+
 
 export default HomePage

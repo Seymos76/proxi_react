@@ -10,7 +10,7 @@
 	z-index: 90;
 	min-height: calc(100vh - 50px) !important;
 	height: auto;
-    background-color:$theme-dark-structure;
+    background-color:$theme-light-background;
 }
 .page-content-light {
     position: relative;
@@ -32,7 +32,7 @@
 }
 
 .content-box {
-	background-color: $theme-light-structure;
+	background-color: $theme-light-background;
 	border-radius: $rounded-m;
 	margin-left: $globalMargin/2;
 	margin-right: $globalMargin/2;
