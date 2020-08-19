@@ -1,6 +1,6 @@
-import React, {useState} from "react"
-import PropTypes from "prop-types"
-import {Link} from "react-router-dom";
+import React, {useState, Fragment} from "react";
+import PropTypes from "prop-types";
+import {Link, useLocation, useRouter} from "react-router-dom";
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import {faHome} from '@fortawesome/free-solid-svg-icons';
 import IntlContext from "../context/IntlContext";
@@ -18,7 +18,9 @@ window.addEventListener('DOMContentLoaded', () => {
 
 const isProd = process.env.REACT_APP_ENV === 'production'
 
-function DuoDrawerLayout({ children, isHome, lightTheme }) {
+function DuoDrawerLayout({ children, isHome, lightTheme, noHeader }, props) {
+    let location = useLocation();
+    // console.log('location:',location);
     const [socialMenu, setSocialMenu] = useState(false);
     const [navigationMenu, setNavigationMenu] = useState(false);
 
@@ -30,6 +32,8 @@ function DuoDrawerLayout({ children, isHome, lightTheme }) {
         setNavigationMenu(!navigationMenu);
     }
 
+    const cityLocation = localStorage.getItem('selectedCityName') ? localStorage.getItem('selectedCityName') : '';
+    // console.log('cityLocation from localStorage:',cityLocation);
     return (
         <IntlContext.Consumer>
             {({ locale }) => (
@@ -38,7 +42,8 @@ function DuoDrawerLayout({ children, isHome, lightTheme }) {
                        {
                            isHome && <div className="header header-fixed header-logo-app">
                                <Link to={`/`} className="header-title color-white">
-                                   <FontAwesomeIcon icon={faHome}/> {window.location.pathname.toUpperCase().substring(1,window.location.pathname.length)}
+                                   <FontAwesomeIcon icon={faHome}/>
+                                   {cityLocation}
                                </Link>
                            </div>
                        }
@@ -55,8 +60,8 @@ function DuoDrawerLayout({ children, isHome, lightTheme }) {
                        {/*        </span>*/}
                        {/*    </button>*/}
                        {/*</div>*/}
-                       <div className="header header-fixed header-demo header-logo-app mb-3 shadow-l">
-                           <Link to="/" className="header-title header-subtitle">{window.location.pathname.toUpperCase().substring(1,window.location.pathname.length)} {locale}</Link>
+                       {noHeader ? <Fragment></Fragment> : <div className="header header-fixed header-demo header-logo-app mb-3 shadow-l">
+                           <Link to="/" className="header-title header-subtitle">{cityLocation}</Link>
                            <Link to="/" className="header-icon header-icon-1"><i className="fas fa-bars"></i></Link>
 
                            <div id="header-icon-2-group">
@@ -73,7 +78,7 @@ function DuoDrawerLayout({ children, isHome, lightTheme }) {
                                </button>
                                {navigationMenu && <NavigationDropdownMenu show={navigationMenu}/>}
                            </div>
-                       </div>
+                       </div>}
 
                        <div className={lightTheme ? `page-content-light` : `page-content`}>
                            {children}

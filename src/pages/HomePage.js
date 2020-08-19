@@ -1,10 +1,12 @@
 import React, {useState, useEffect} from "react"
-import { Link } from "react-router-dom";
+import { Link, Redirect } from "react-router-dom";
 import DuoDrawerLayout from "../layout/DuoDrawerLayout";
 import Bowser from "bowser";
 import axios from "axios";
 
 function HomePage() {
+    console.log('HomePage.jsx');
+
     const [selectedCity, setSelectedCity] = useState('');
     const [cities, setCities] = useState(['Amsterdam']);
     const [citySearch, setCitySearch] = useState('');
@@ -51,9 +53,26 @@ function HomePage() {
                 return element.classList.contains('active') ? element.classList.remove('active') : false;
             }
         })
+        localStorage.setItem('selectedCityName',currentTarget.dataset.name);
+        localStorage.setItem('selectedCityId',currentTarget.dataset.id);
+        localStorage.setItem('selectedCityZipCode',currentTarget.dataset.zip);
+        return <Redirect to={`/commune/${currentTarget.dataset.slug}`}/>
+    }
+
+    const eraseSelectedCityFromLocalStorage = () => {
+        if (localStorage.getItem('selectedCityName')) {
+            localStorage.removeItem('selectedCityName')
+        }
+        if (localStorage.getItem('selectedCityId')) {
+            localStorage.removeItem('selectedCityId')
+        }
+        if (localStorage.getItem('selectedCityZipCode')) {
+            localStorage.removeItem('selectedCityZipCode')
+        }
     }
 
     useEffect( () => {
+        eraseSelectedCityFromLocalStorage();
         // console.log('used effect',cities);
         const fetchCities = async () => {
             const result = await getMatchingCities();
@@ -86,7 +105,7 @@ function HomePage() {
                     cities && cities.length && <div className={`search-results`}>
                         <div className="list-group list-custom-large">
                             {(cities && cities.length) && cities.map(city => (
-                                <Link to={`/${city.slug}`} onClick={selectCity} data-id={city.id} key={city.id} className={"city-select"}>
+                                <Link to={`/commune/${city.slug}`} onClick={selectCity} data-id={city.id} data-slug={city.slug} data-name={city.name} data-zip={city.zipCode} key={city.id} className={"city-select"}>
                                     <i className="fab fa-apple color-gray-dark"></i>
                                     <span>{city.name}</span>
                                     <strong>{city.zipCode}</strong>

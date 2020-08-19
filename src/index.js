@@ -1,17 +1,18 @@
 import React, {Suspense, StrictMode} from 'react';
 import ReactDOM from 'react-dom';
 // import './initIndexedDB';
-import { BrowserRouter, Route} from "react-router-dom";
+import { BrowserRouter, Route, Router} from "react-router-dom";
 import IntlProviderWrapper from "./wrappers/IntlProviderWrapper";
 import {language, messages} from "./utils/translations";
 // import Eruda from "eruda";
 import HomePage from "./pages/HomePage";
-import SecurityPage from "./pages/SecurityPage";
 import * as serviceWorker from "./serviceWorker";
 import * as Sentry from '@sentry/react';
 import SplashScreen from "./pages/SplashScreen";
 import Loader from "./components/loader";
 import CityHomePage from "./pages/CityHomePage";
+import BusinessPage from "./pages/BusinessPage";
+import history from "./utils/history";
 
 // Eruda.init();
 Sentry.init({dsn: "https://51d8dfc777ea479f8f1b1fff9bea42fd@o346982.ingest.sentry.io/5368022"});
@@ -40,8 +41,8 @@ function AppRoot() {
 				<BrowserRouter>
 					<Suspense fallback={<Loader/>}>
 						<Route exact path='/' component={HomePage}/>
-						<Route path='/:city' component={CityHomePage}/>
-						<Route exact path='/security' component={SecurityPage}/>
+						<Route path='/commune/:city' component={CityHomePage}/>
+						<Route path='/boutique/:business' component={BusinessPage}/>
 					</Suspense>
 				</BrowserRouter>
 			</StrictMode>
