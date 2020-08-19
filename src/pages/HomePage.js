@@ -1,19 +1,16 @@
 import React, {useState, useEffect} from "react"
 import { Link } from "react-router-dom";
-import splash from "../assets/images/logo_grottes_cerdon.png";
 import DuoDrawerLayout from "../layout/DuoDrawerLayout";
 import Bowser from "bowser";
 import axios from "axios";
-import {faDirections, faDownload, faSearch, faWindowClose} from "@fortawesome/free-solid-svg-icons";
-import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 
 function HomePage() {
     const [selectedCity, setSelectedCity] = useState('');
     const [cities, setCities] = useState(['Amsterdam']);
     const [citySearch, setCitySearch] = useState('');
-    const { engine } = Bowser.getParser(window.navigator.userAgent).getResult();
-    const browserEngine = engine.name;
-    const isFirefox = browserEngine !== "WebKit" && browserEngine !== "Blink" && browserEngine === "Gecko";
+    // const { engine } = Bowser.getParser(window.navigator.userAgent).getResult();
+    // const browserEngine = engine.name;
+    // const isFirefox = browserEngine !== "WebKit" && browserEngine !== "Blink" && browserEngine === "Gecko";
 
     const handleChange = ({ currentTarget }) => {
         setCitySearch(currentTarget.value);
@@ -37,7 +34,7 @@ function HomePage() {
     }
 
     const citySearchIsValid = () => {
-        if (citySearch !== "" && citySearch.length >= 5) {
+        if (citySearch !== "" && citySearch.length >= 3) {
             return true;
         } else {
             return false;
@@ -45,8 +42,6 @@ function HomePage() {
     }
 
     const selectCity = ({ currentTarget }) => {
-        console.log('selected:',currentTarget);
-        console.log('data:',currentTarget.dataset.id);
         setSelectedCity(currentTarget.dataset.id);
         var selectedElements = document.querySelectorAll(".city-select");
         selectedElements.forEach(element => {

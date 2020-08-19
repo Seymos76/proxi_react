@@ -18,11 +18,28 @@
 
 //Importing Components
 @import "components/buttons";
-@import "components/loader";
+@import "components/icons";
+@import "components/accordion";
+@import "components/offline";
+@import "components/ads";
+@import "components/alerts";
+@import "components/notifications";
+@import "components/back-to-top";
 @import "components/cards";
+@import "components/chips";
 @import "components/dividers";
+@import "components/switches";
+@import "components/checkradio";
+@import "components/inputs";
+@import "components/range";
 @import "components/list-group";
-@import "components/visit-controls";
+@import "components/toasts";
+@import "components/snackbars";
+@import "components/pagination";
+@import "components/search";
+@import "components/tabs";
+@import "components/working-hours";
+@import "components/iframes";
 
 //Importing Pages
 @import "pages/map";
@@ -49,7 +66,7 @@
   right: 0;
   bottom: 0;
   background-color: #1f0f00;
-  background-image: url("../images/splashes/splash.jpg");
+  background-image: url("../images/splash/android-chrome-192x192.png");
   background-size: 190%;
   background-position: center center;
   background-repeat: no-repeat;
@@ -92,4 +109,17 @@ p {
 
 .hidden {
   display: none !important;
+}
+
+.city-select.active {
+  background-color: $theme-dark-background;
+  color: $theme-light-text;
+}
+
+.btn-categories {
+  width: auto;
+  overflow: scroll;
+  display: flex;
+  flex-wrap: nowrap;
+  height: 50px;
 }

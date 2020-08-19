@@ -1,6 +1,6 @@
 import React from "react";
 import {Link} from "react-router-dom";
-import splashImg from "./../assets/images/splashes/icon.png";
+import splashImg from "./../assets/images/splash/apple-touch-icon-152x152.png";
 import './../assets/scss/pages/SplashScreen.scss';
 
 function SplashScreen() {

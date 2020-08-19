@@ -28,17 +28,10 @@ request.onupgradeneeded = function () {
          const steps = messages[messagesKey].VISIT.STEPS;
          steps.map((step, i) => {
              // const audioSrc = step.INDEX !== "!" ? require(`./assets/media/${step.INDEX}_${messagesKey.toUpperCase()}.mp3`) : null;
-             const audioSrc = step.INDEX !== "!" ? require(`./assets/media/${step.AUDIO}`) : null;
-             const heroImage = step.INDEX !== "!" ? require(`./assets/images/diapo/${step.HERO}`) : null;
-             const mapImage = step.INDEX !== "!" ? require(`./assets/images/cartes/${step.MAP}`) : null;
              return stepStore.add({
                  id: step.INDEX,
                  name: step.NAME,
                  title: step.TITLE,
-                 description: step.DESCRIPTION,
-                 image: heroImage,
-                 map: mapImage,
-                 audio: audioSrc,
                  key: `${messagesKey}_${step.INDEX}`,
                  lang: messagesKey
              });
@@ -51,12 +44,9 @@ request.onupgradeneeded = function () {
     for (let messagesKey in messages) {
         const steps = messages[messagesKey].VISIT.STEPS;
         steps.forEach((step, i) => {
-            const audioSrc = step.INDEX !== "!" ? require(`./assets/media/${step.INDEX}_${messagesKey.toUpperCase()}.mp3`) : null;
-            const audioFile = new File([audioSrc], `${step.INDEX}_${messagesKey.toUpperCase()}.mp3`,{type : 'audio/mpeg'});
             if (step.INDEX !== "!") {
                 return audioStore.add({
                     audioSrc: audioSrc,
-                    file: audioFile,
                     key: `${step.INDEX}_${messagesKey.toUpperCase()}`,
                     lang: messagesKey
                 });

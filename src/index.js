@@ -7,7 +7,6 @@ import {language, messages} from "./utils/translations";
 // import Eruda from "eruda";
 import HomePage from "./pages/HomePage";
 import SecurityPage from "./pages/SecurityPage";
-import VisitPage from "./pages/VisitPage";
 import * as serviceWorker from "./serviceWorker";
 import * as Sentry from '@sentry/react';
 import SplashScreen from "./pages/SplashScreen";
@@ -43,7 +42,6 @@ function AppRoot() {
 						<Route exact path='/' component={HomePage}/>
 						<Route path='/:city' component={CityHomePage}/>
 						<Route exact path='/security' component={SecurityPage}/>
-						<Route exact path='/visit/:step?' component={VisitPage}/>
 					</Suspense>
 				</BrowserRouter>
 			</StrictMode>
