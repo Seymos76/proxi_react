@@ -13,6 +13,7 @@ import Loader from "./components/loader";
 import CityHomePage from "./pages/CityHomePage";
 import BusinessPage from "./pages/BusinessPage";
 import history from "./utils/history";
+import ProfilePage from "./pages/ProfilePage";
 
 // Eruda.init();
 Sentry.init({dsn: "https://51d8dfc777ea479f8f1b1fff9bea42fd@o346982.ingest.sentry.io/5368022"});
@@ -43,6 +44,7 @@ function AppRoot() {
 						<Route exact path='/' component={HomePage}/>
 						<Route path='/commune/:city' component={CityHomePage}/>
 						<Route path='/boutique/:business' component={BusinessPage}/>
+						<Route path='/profile' component={ProfilePage}/>
 					</Suspense>
 				</BrowserRouter>
 			</StrictMode>

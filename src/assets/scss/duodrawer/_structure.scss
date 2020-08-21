@@ -5,7 +5,7 @@
 }
 .page-content {
     position: relative;
-	margin-top: 50px;
+	//margin-top: 50px;
     transition: $globalTransitions;
 	z-index: 90;
 	min-height: calc(100vh - 50px) !important;
@@ -43,6 +43,16 @@
     position: relative;
     display:block;
 	margin: ($globalMargin/2)+5 $globalMargin/2 ($globalMargin) $globalMargin/2;
+	p {
+		&:last-child {
+			margin-bottom: 0px;
+		}
+	}
+}
+.content-no-margin {
+    position: relative;
+    display:block;
+	margin: 0;
 	p {
 		&:last-child {
 			margin-bottom: 0px;

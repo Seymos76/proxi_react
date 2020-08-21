@@ -123,3 +123,26 @@ p {
   flex-wrap: nowrap;
   height: 50px;
 }
+
+.business-cards {
+  border: 1px solid red;
+  display: flex;
+  align-items: center;
+  flex-wrap: nowrap;
+  min-width: 100vw;
+  width: auto;
+  height: auto;
+  padding: 5px;
+  overflow-x: scroll;
+
+  .card {
+    margin: auto;
+  }
+}
+
+.dropdown-menu-full {
+  width: 100vw;
+  top: 40px;
+  height: auto;
+  padding: 0;
+}
