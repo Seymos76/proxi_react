@@ -6,6 +6,7 @@ import {faHome} from '@fortawesome/free-solid-svg-icons';
 import IntlContext from "../context/IntlContext";
 import '../assets/scss/bootstrap.scss';
 import '../assets/scss/style.scss';
+import FooterBar from "../components/FooterBar";
 
 window.addEventListener('DOMContentLoaded', () => {
     // var loader = document.getElementById('loader');
@@ -82,6 +83,7 @@ function DuoDrawerLayout({ children, isHome, lightTheme, noHeader }, props) {
 
                        <div className={lightTheme ? `page-content-light` : `page-content`}>
                            {children}
+                           {!isHome && <FooterBar/>}
                        </div>
                    </div>
                    {isProd && <div id="loader" className="hidden">
