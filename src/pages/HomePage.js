@@ -105,7 +105,7 @@ function HomePage() {
                     cities && cities.length && <div className={`search-results`}>
                         <div className="list-group list-custom-large">
                             {(cities && cities.length) && cities.map(city => (
-                                <Link to={`/commune/${city.slug}`} onClick={selectCity} data-id={city.id} data-slug={city.slug} data-name={city.name} data-zip={city.zipCode} key={city.id} className={"city-select"}>
+                                <Link to={`/commune/${city.slug}`} onClick={selectCity} data-id={city.id} data-slug={city.slug} data-name={city.name} data-zip={city.zipCode} className={"city-select"}>
                                     <i className="fab fa-apple color-gray-dark"></i>
                                     <span>{city.name}</span>
                                     <strong>{city.zipCode}</strong>
